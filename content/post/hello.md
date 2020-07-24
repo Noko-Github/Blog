@@ -8,6 +8,14 @@ draft: true
 ※本記事の解説内容は、厳密にレビューしたものではないため、誤りを含む可能性あり。
 ```
 ## 問1
+$$
+A{\Delta}B = (A{\backslash}B){\cup}(B{\backslash}A)  \\\\\\
+           = (A{\cap}B^c){\cup}(B{\cap}A^c) \\\\\\
+           = ((A{\cap}B^c){\cup}B){\cap}((A{\cap}B^c){\cup}A^c) \\\\\\
+           = (A{\cup}B){\cap}(A^c{\cup}B^c) \\\\\\
+           = (A{\cup}B){\cap}(A{\cap}B)^c \\\\\\
+           =(A{\cup}B){\backslash}(A{\cap}B) \\\\\\
+$$
 ## 問2
 ## 問3
 
