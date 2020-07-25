@@ -4,16 +4,19 @@
   
   <url>
     <loc>https://blog.noko.tech/</loc>
+
     <lastmod>2020-07-24T00:27:17+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.noko.tech/post/</loc>
+
     <lastmod>2020-07-24T00:27:17+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.noko.tech/post/hello/</loc>
+
     <lastmod>2020-07-24T00:27:17+09:00</lastmod>
   </url>
   
@@ -23,6 +26,7 @@
   
   <url>
     <loc>https://blog.noko.tech/tags/</loc>
+
   </url>
   
 </urlset>
