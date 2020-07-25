@@ -17,6 +17,18 @@ A{\Delta}B = (A{\backslash}B){\cup}(B{\backslash}A)  \\\\\\
            =(A{\cup}B){\backslash}(A{\cap}B) \\\\\\
 $$
 ## 問2
+
+$$
+P(A{\cup}B) = P(A)+ P(B)-P(A{\cap}B)を活用する。
+$$
+$$
+P(A_1{\cup}A_2{\cup}A_3) = P(A_1{\cup}(A_2{\cup}A_3)) \\\\\\
+        = P(A_1) + P(A_2{\cup}A_3) - P(A_1{\cap}(A_2{\cup}A_3)) \\\\\\
+        = P(A_1) + P(A_2) + P(A_3)-P(A_2{\cap}A_3) - P(A_1{\cap}(A_2{\cup}A_3)) \\\\\\
+        = P(A_1) + P(A_2) + P(A_3)-P(A_2{\cap}A_3) - P((A_1{\cap}A_2) {\cup}(A_1{\cap}A_3)) \\\\\\
+        =P(A_1) + P(A_2) + P(A_3)-P(A_2{\cap}A_3) - P(A_1{\cap}A_2) - P(A_1{\cap}A_3) +  P((A_1{\cap}A_2) {\cap}(A_1{\cap}A_3))\\\\\\
+        =P(A_1) + P(A_2) + P(A_3)-P(A_1{\cap}A_2) - P(A_2{\cap}A_3) - P(A_3{\cap}A_1) +  P(A_1{\cap}A_2 {\cap}A_3) 
+$$
 ## 問3
 
 
