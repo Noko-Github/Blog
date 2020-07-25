@@ -2,3 +2,6 @@ baseURL = "https://blog.noko.tech"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "zozo"
+
+[params]
+  mathjax = "true"
