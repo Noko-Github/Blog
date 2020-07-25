@@ -17,7 +17,6 @@
       <pubDate>Fri, 24 Jul 2020 00:27:17 +0900</pubDate>
       
       <guid>https://blog.noko.tech/post/hello/</guid>
-
       <description>本記事では「現代数理統計学の基礎」における1章の演習問題を解説する。
 ※本記事の解説内容は、厳密にレビューしたものではないため、誤りを含む可能性あり。 問1 $$ A{\Delta}B = (A{\backslash}B){\cup}(B{\backslash}A) \\\
 = (A{\cap}B^c){\cup}(B{\cap}A^c) \\\
