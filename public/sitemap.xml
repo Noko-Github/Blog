@@ -1,13 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url><loc>http://example.org/categories
-    </loc></url>
+  <url>
+    <loc>https://blog.noko.tech/</loc>
+    <lastmod>2020-07-24T00:27:17+09:00</lastmod>
+  </url>
   
-  <url><loc>http://example.org
-    </loc></url>
+  <url>
+    <loc>https://blog.noko.tech/post/</loc>
+    <lastmod>2020-07-24T00:27:17+09:00</lastmod>
+  </url>
   
-  <url><loc>http://example.org/tags
-    </loc></url>
+  <url>
+    <loc>https://blog.noko.tech/post/hello/</loc>
+    <lastmod>2020-07-24T00:27:17+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.noko.tech/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.noko.tech/tags/</loc>
+  </url>
   
 </urlset>
