@@ -2,21 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/post/</link>
+    <link>https://blog.noko.tech/post/</link>
+
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jul 2020 00:27:17 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.noko.tech/post/index.xml" rel="self" type="application/rss+xml" />
+
     
     
     <item>
       <title>現代数理統計学の基礎　演習問題1章解説</title>
-      <link>http://example.org/post/hello/</link>
+      <link>https://blog.noko.tech/post/hello/</link>
       <pubDate>Fri, 24 Jul 2020 00:27:17 +0900</pubDate>
       
-      <guid>http://example.org/post/hello/</guid>
+      <guid>https://blog.noko.tech/post/hello/</guid>
+
       <description>本記事では「現代数理統計学の基礎」における1章の演習問題を解説する。
 ※本記事の解説内容は、厳密にレビューしたものではないため、誤りを含む可能性あり。 問1 $$ A{\Delta}B = (A{\backslash}B){\cup}(B{\backslash}A) \\\
 = (A{\cap}B^c){\cup}(B{\cap}A^c) \\\
