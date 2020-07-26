@@ -42,5 +42,20 @@ P(A_1{\cap}{\cdots}{\cap}A_n) = P((A_1{\cap}{\cdots}{\cap}A_{n-1}){\cap}A_n) \\\
         同様にして \\\\\\
         = P(A_n | A_1{\cap}{\cdots}{\cap}A_{n-1}) * {\cdots} * P(A_2|A_1) * P(A_1) \\\\\\
 $$
+***
 
 
+## 問8
+確率の劣加法性より
+$$
+P(\cup_{k=1}^{\infty}A_k) \leq \sum_{k=1}^{\infty}P(A_k) \\\\\\
+$$
+すなわち
+$$
+P(\cup_{k=1}^{\infty}A_k^c) \leq \sum_{k=1}^{\infty}P(A_k^c) \\\\\\
+ド・モルガンの法則より、左辺を変形して \\\\\\
+P((\cap_{k=1}^{\infty}A_k)^c) \leq \sum_{k=1}^{\infty}P(A_k^c) \\\\\\
+1 - P(\cap_{k=1}^{\infty}A_k) \leq \sum_{k=1}^{\infty}P(A_k^c) \\\\\\
+よって \\\\\\
+P(\cap_{k=1}^{\infty}A_k) \geq 1 - \sum_{k=1}^{\infty}P(A_k^c) \\\\\\
+$$
